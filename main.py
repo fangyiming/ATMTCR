@@ -178,7 +178,7 @@ if __name__ == '__main__':
     # # ACC存入CSV
     # # dataframe = pd.DataFrame({'Epoch': x, 'acc': accurac_list})
     # # dataframe.to_csv(r"test_acc.csv", sep=',')
-    # plt.plot(x, accurac_list, 'green', label=' ACC = {0:.4f}'.format(max(accurac_list)-0.0003))
+    # plt.plot(x, accurac_list, 'green', label=' ACC = {0:.4f}'.format(max(accurac_list)))
     # plt.xlabel('Epoch')
     # plt.ylabel('ACC')
     # plt.title('ATMTCR')
